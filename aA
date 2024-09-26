@@ -1,0 +1,95 @@
+    <div id="login">
+        <form>
+        <div class="container">
+            <input type="text" id="username" placeholder="Email adress or phone number"/>
+            <input type="text" id="password" placeholder="Password">
+        </div>
+        <div id="button-log">
+            <input type="button" id="login-button" value="Log in">
+        </div>
+        <div id="forget">
+            <a href="for">Forgotten password?</a>
+        </div>
+            <hr>
+        <div id="create">
+            <input type="button" id="login button" value="Create New Account">
+            </div>
+        </form>
+    </div>
+
+    body {
+        background-color: rgb(243, 239, 239);
+      }
+      
+      .container input {
+        border: 1px solid gray;
+        opacity: 0.5;
+        text-shadow: black;
+        height: 30px;
+        width: 350px;
+      }
+      
+      #login {
+            position: absolute;
+            top: 47%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            box-shadow: 1px 1px 1px 1px rgb(216, 205, 205);
+            border-radius: 10px;
+            padding: 20px;
+            height: 330px;
+      }
+
+      
+      #login input {
+        display: block;
+        padding: 10px;
+        font-size:18px;
+        color: black;
+        outline: none; 
+        border-radius: 5px; 
+        margin-bottom: 13px;
+      }
+      
+      
+      #button-log {
+      }
+      
+      #button-log input {
+        width: 370px;
+      }
+      
+      .button_log a {
+        text-align: center;
+        margin-left: 110px;
+      }
+      
+      #create {
+        color: green;
+      }
+      
+      #create input { 
+        top: 60px;
+        left: 50%;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        padding: 10px;
+        color: white;
+        margin-left: 75px;
+        margin-top: 40px;
+      }
+      
+      #usename {
+        color: white      ;
+      }
+      
+      #forget {
+        overflow: hidden;
+        text-decoration: none;
+      }
+      
+      hr {
+        margin-top: 20px;
+      }
